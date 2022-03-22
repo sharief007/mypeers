@@ -1,0 +1,12 @@
+
+.idea
+
+target/
+
+*.class
+*.jar
+
+gateway/target/
+message-reader/target
+message-writer/target
+router/target
