@@ -1,4 +1,4 @@
-package app.peers.router.model;
+package app.peers.reader.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

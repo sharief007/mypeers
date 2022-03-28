@@ -12,8 +12,6 @@ import org.springframework.context.annotation.Configuration;
 import java.io.IOException;
 import java.time.Instant;
 import java.util.Map;
-import java.util.Objects;
-import java.util.UUID;
 
 @Configuration
 public class RabbitMqConfiguration {

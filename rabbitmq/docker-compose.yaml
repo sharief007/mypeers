@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  rabbitmq:
+    image: holydocker13579/rabbitmq
+    ports:
+      - 15672:15672
+      - 5672:5672
+      - 61613:61613
+

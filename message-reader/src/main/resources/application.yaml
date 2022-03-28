@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: message-reader
+  data:
+    mongodb:
+      uri: ${MONGODB_URI}
+      repositories:
+        type: reactive
+      auto-index-creation: true
+  cloud:
+    consul:
+      discovery:
+        enabled: true
+        instance-id: ${spring.application.name}:${random.uuid}
+      host: localhost
+      port: 8500
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
